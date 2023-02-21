@@ -1,0 +1,113 @@
+header{
+    background-image: url(../img/benner.jpg);
+    padding-bottom: 30%;
+    background-size: 100% 100%;
+}
+*{
+  margin: 1px;
+  padding: 1px;
+}
+body{
+    font-family: lato;
+    color: black;
+}
+nav{
+    background-color: blue;
+    height: 50%;
+    margin-bottom: 10px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 0 25px;
+    border-right: 1px solid gray;
+}
+nav ul li:hover{
+    background: red;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    font-family: roboto;
+    font-size: 20px;
+    line-height: 40px;
+}
+nav .tkiem{
+    float: right;
+    line-height: 4px;
+}
+nav .tkiem input{
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 7px 10px;
+    width: 250px;
+}
+nav .tkiem button{
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    background: blue;
+    color: white;
+    margin-left: -5px;
+}
+.chuchay{
+    position: relative;
+    margin-bottom: 5px;
+}
+aside{
+    float: left;
+    width: 300px;
+    border-left: 1px gray solid;
+}
+h3{
+    font-size: 18px;
+    padding: 10px 15px;
+    background: blue;
+    color: white;
+    text-shadow: 2px 2px 5px red;
+}
+.menudoc ul{
+    list-style: none;
+}
+.menudoc ul li{
+    padding: 10px 15px;
+    background-color: white;
+    border-top: 1px solid gray;
+}
+.menudoc ul li:hover{
+    background: red;
+}
+footer{
+    width: 100%;
+    clear: both;
+    background: blue;
+    color: white;   
+}
+.ft1{
+    float: left;
+    width: 400px;
+    margin-bottom: 25px;
+}
+footer h3{
+    padding: 15px;
+    font-size: 20px;
+}
+.ttin{
+    float: right;
+    
+}
+.chaomung{
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: grey;
+    color: white;
+    text-shadow: 2px 2px 5px;
+}
+.article{
+    text-align: center;
+}
